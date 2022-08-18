@@ -1,0 +1,245 @@
+/* --------------------------------------------------------------------- */
+/* global css for out lining */
+* {
+    outline: 1px dotted red;
+    box-sizing: border-box;
+}
+
+
+/* --------------------------------------------------------------------- */
+
+/* ICO Moon CSS */
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    color: whitesmoke;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+    font-size: 32px;
+    color: red;
+}
+  ========================================== */
+
+/* --------------------------------------------------------------------- */
+/* margin reset global */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------------------------------------------------------- */
+/* Header CSS */
+
+.header {
+    padding: 15px 0;
+    background-color: rgb(59, 55, 55);
+}
+
+/* header h1 (Bloom Landing Page) color */
+
+.header h1{
+    color: azure;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.header div{
+    display: flex;
+    width: 100%;
+}
+
+#bloom_landing_page{
+    margin-left: 30%;
+}
+
+#social_media_icons{
+    margin-top: 15px;
+    margin-right: 5%;
+    justify-content: end;
+    
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header li {
+    display: inline;
+}
+
+/* --------------------------------------------------------------------- */
+/* Fonts */
+
+.client_bold {
+    text-emphasis: bold;
+}
+
+#bloom_landing_page {
+    font-family: 'Butterfly Kids', cursive;
+    text-emphasis: bold;
+}
+
+.landing_page h2 {
+    font-family: 'Mukta', sans-serif;
+}
+
+/* Colors */
+
+.landing_page div {
+    background-color: rgb(238, 107, 140);
+}
+
+/* --------------------------------------------------------------------- */
+
+/* Float */
+
+#landing_right_side {
+    width:calc(100% /2);
+    height: 281px;
+    float: left;
+}
+
+#landing_left_side{
+    width: calc(100% /2);
+    height: 281px;
+    float: right;
+}
+
+.landing_page{
+    background-color: rgb(238, 107, 140);
+}
+
+/* --------------------------------------------------------------------- */
+
+
+
+/* --------------------------------------------------------------------- */
+
+/* Mid Section */
+
+.mid-section {
+    width: 100%;
+    /* boarder: 1px solid green; */
+}
+
+.mid-sec-div {
+    width:calc(100% /3) ;
+    float: left;
+}
+
+/* --------------------------------------------------------------------- */
+
+/* Computer Image */
+
+#laptop {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding-top: 5%;
+    padding-left: 15%;
+    width: 500px;
+}
+
+/* --------------------------------------------------------------------- */
+
+/* Rectangle Boxes created in CSS*/
+
+/* box-1 */
+
+.box {
+    height: 150px;
+    width: 250px;
+    background-color: rgb(59, 55, 55);
+    border: 5px rgb(188, 190, 219) solid;
+}
+
+.box p {
+    text-align: center;
+    line-height: 3;
+}
+
+/* --------------------------------------------------------------------- */
+
+/* Products Boxes Placement */
+
+.inner-products {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product-div {
+    margin: 15px 20px;
+    width: 150px;
+}
+
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    flex: 1;
+    flex-wrap: wrap;
+    padding-right: 50px;
+}
+
+/* --------------------------------------------------------------------- */
+
+/* Bold CSS for Font for Client */
+.bold_type {
+    color:rgb(83, 83, 88);font-weight:bold
+}
+
+
+.inner-products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-right {
+    width: 43%;
+}
+/* --------------------------------------------------------------------- */
+
+/* Footer */
+
+.footer {
+    padding: 15px 0;
+    background-color: rgb(59, 55, 55);
+}
+
+.footer ul {
+    text-align: right;
+    list-style-type: none;
+}
+
+.footer li {
+    display: inline;
+}
+
+.footer h5{
+    color: azure;
+}
+
+#copyright, #footer_icons {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#copyright{
+    margin-left: 140px;
+}
+#footer_icons{
+    margin-left: 780px;
+}
+
+.clear{
+    display: none;
+}
