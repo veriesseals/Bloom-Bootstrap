@@ -1,5 +1,6 @@
 /* --------------------------------------------------------------------- */
 /* global css for out lining */
+
 * {
     outline: 1px dotted red;
     box-sizing: border-box;
@@ -28,6 +29,7 @@ Single-colored icons can be modified like so:
   ========================================== */
 
 /* --------------------------------------------------------------------- */
+
 /* margin reset global */
 
 body {
@@ -36,6 +38,7 @@ body {
 }
 
 /* --------------------------------------------------------------------- */
+
 /* Header CSS */
 
 .header {
@@ -62,7 +65,7 @@ body {
 
 #social_media_icons{
     margin-top: 15px;
-    margin-right: 5%;
+    margin-right: 10%;
     justify-content: end;
     
 }
@@ -75,12 +78,13 @@ body {
     display: inline;
 }
 
-/* --------------------------------------------------------------------- */
-/* Fonts */
-
 .client_bold {
     text-emphasis: bold;
 }
+
+/* --------------------------------------------------------------------- */
+
+/* Landing Page */
 
 #bloom_landing_page {
     font-family: 'Butterfly Kids', cursive;
@@ -91,35 +95,27 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
-/* Colors */
 
 .landing_page div {
     background-color: rgb(238, 107, 140);
 }
 
-/* --------------------------------------------------------------------- */
-
-/* Float */
+.landing_page{
+    display: flex;
+}
 
 #landing_right_side {
-    width:calc(100% /2);
-    height: 281px;
-    float: left;
+    width: 400px;
+    margin-left: 150px;
 }
 
 #landing_left_side{
-    width: calc(100% /2);
-    height: 281px;
-    float: right;
+    margin-right: -100px;
 }
 
 .landing_page{
     background-color: rgb(238, 107, 140);
 }
-
-/* --------------------------------------------------------------------- */
-
-
 
 /* --------------------------------------------------------------------- */
 
