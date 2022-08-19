@@ -9,29 +9,6 @@
 
 /* --------------------------------------------------------------------- */
 
-/* ICO Moon CSS */
-.icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-    color: whitesmoke;
-}
-
-/* ==========================================
-Single-colored icons can be modified like so:
-.icon-name {
-    font-size: 32px;
-    color: red;
-}
-  ========================================== */
-
-/* --------------------------------------------------------------------- */
-
-/* margin reset global */
-
 body {
     margin: 0;
     padding: 0;
@@ -42,7 +19,6 @@ body {
 /* Header CSS */
 
 .header {
-    /* padding: 15px 0; */
     background-color: rgb(59, 55, 55);
 }
 
@@ -50,32 +26,18 @@ body {
 
 .header h1{
     color: azure;
-    /* width: 100%; */
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
-.header div {
-    display: flex;
-    width: 100%;
-}
-
-#bloom_landing_page{
-    /* margin-left: 30%; */
-}
-
-#social_media_icons{
-    /* margin-top: 15px; */
-    /* margin-right: 10%; */
-    justify-content: end;
-    
-}
 
 .header ul {
     list-style-type: none;
+    text-align: right;
+    margin-top: 15px;
 }
 
 .header li {
-    display: inline;
+    display: inline-flex;
 }
 
 .client_bold {
@@ -83,7 +45,6 @@ body {
 }
 
 /* --------------------------------------------------------------------- */
-
 /* Landing Page */
 
 #bloom_landing_page {
@@ -95,7 +56,6 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
-
 .landing_page div {
     background-color: rgb(238, 107, 140);
 }
@@ -106,76 +66,85 @@ body {
 
 #landing_right_side {
     width: 400px;
-    /* margin-left: 150px; */
+    margin-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-#landing_left_side{
-    /* margin-right: -100px; */
-}
 
 .landing_page{
     background-color: rgb(238, 107, 140);
 }
 
 /* --------------------------------------------------------------------- */
-
-/* Mid Section */
-
-.mid-section {
-    width: 100%;
-    /* boarder: 1px solid green; */
-}
-
-.mid-sec-div {
-    width:calc(100% /3) ;
-    float: left;
-}
-
-/* --------------------------------------------------------------------- */
-
 /* Computer Image */
 
 #laptop {
-    border: 1px solid #ddd;
     border-radius: 4px;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-left: 15%;
-    width: 500px;
+    width: 400px;
 }
 
 /* --------------------------------------------------------------------- */
+/* Social Media Icons */
 
+#social_media_icons{
+    color: whitesmoke;
+}
+
+/* --------------------------------------------------------------------- */
+/* Button */
+
+.btn btn-secondary  btn-sm{
+    border-top: 1px solid whitesmoke;
+}
+
+/* --------------------------------------------------------------------- */
+/* Mid Section */
+
+.mid-sec-div {
+    width: 300px;
+}
+
+/* --------------------------------------------------------------------- */
+/* Horizontal Line */
+
+hr{
+    border: 2px solid rgb(238, 107, 140);
+}
+
+
+/* --------------------------------------------------------------------- */
 /* Rectangle Boxes created in CSS*/
 
 /* box-1 */
+.boxes{
+    display: flex;
+    width: 400px;
+}
+
 
 .box {
-    height: 150px;
-    width: 250px;
+    height: 100px;
+    width: 150px;
     background-color: rgb(59, 55, 55);
     border: 5px rgb(188, 190, 219) solid;
 }
 
 .box p {
     text-align: center;
-    line-height: 3;
+    line-height: 5;
+    color: whitesmoke;
 }
 
 /* --------------------------------------------------------------------- */
 
 /* Products Boxes Placement */
 
-.inner-products {
+#products-section{
     display: flex;
-    width: 80%;
-    margin: 0 auto;
 }
-
-.product-div {
-    margin: 15px 20px;
-    width: 150px;
-}
-
 
 .boxes {
     display: flex;
@@ -194,24 +163,29 @@ body {
 }
 
 
-.inner-products {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .group-right {
-    width: 43%;
+    width: 380px;
+    /* margin-right: 600px; */
 }
 /* --------------------------------------------------------------------- */
 
 /* Footer */
 
 .footer {
-    padding: 15px 0;
+    /* padding: 15px 0; */
     background-color: rgb(59, 55, 55);
 }
 
+.footer-items{
+    display: flex;
+}
+
+
+
 .footer ul {
+    margin-top: 15px;
     text-align: right;
     list-style-type: none;
 }
@@ -220,22 +194,14 @@ body {
     display: inline;
 }
 
-.footer h5{
+.footer h5, #footer_icons{
     color: azure;
 }
 
-#copyright, #footer_icons {
-    display: inline-block;
-    vertical-align: middle;
+#copyright h5{
+    margin-top: 20px;
+    margin-right: 44px;
+    font-size: 10px;
 }
 
-#copyright{
-    margin-left: 140px;
-}
-#footer_icons{
-    margin-left: 780px;
-}
 
-.clear{
-    display: none;
-}
